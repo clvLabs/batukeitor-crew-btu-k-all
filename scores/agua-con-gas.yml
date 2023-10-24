@@ -1,0 +1,88 @@
+# Batukeitor score
+name: Agua con gas
+
+bpm: 130
+score:
+  intro
+  intro
+  ---
+  base
+  corte
+  base
+  ---
+  intro
+  intro
+  ---
+  base
+  base
+  ---
+  fin
+
+sections:
+
+  intro:
+    name: Intro
+    color: "#c3a012"
+    tracks:
+      #    "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      TB:  "          XXX X           XXX X X       X       X         XXX X "
+      RP:  "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      CX:  "X  X  X X XXX X X  X  X X XXX X X       X       X         XXX X "
+      S3:  "                                X       X       X       X       "
+      KS3: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S2:  "                                X       X       X       X       "
+      KS2: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S1:  "                                X       X       X       X       "
+      KS1: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+
+
+  base:
+    name: Base
+    color: "#006000"
+    tracks:
+      #    "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH:  "X--XX--XX       X--XX--XX       X--XX--XX--XX--X--XX--XXX       "
+      AG:  "-X -X -X  - -   -X -X -X  - -   -X -X - -X -X - -X -X -X  - - - "
+      TB:  "X  X  X   X X   X  X  X   X X   X  X  X   X X   X  X  X   X X   "
+      RP:  "X  X  X   X X   X  X  X   X X   X  X  X   X X   X  X  X   X X   "
+      CX:  "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---"
+      S3:  "X      XX       X      XX       X      XX      XX      XX       "
+      KS3: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S2:  "X       X       X       X       X       X       X       X       "
+      KS2: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S1:  "X       X       X       X       X       X       X       X       "
+      KS1: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+
+
+  corte:
+    name: Corte
+    color: "#000060"
+    tracks:
+      #    "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH:  "X--XX--XX       X--XX--XX       X--XX--XX--XX--X--XX--XXX       "
+      AG:  "-  -  X -       -  -  X -       -  -  X -  -  X -  -  X -       "
+      TB:  "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      RP:  "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      CX:  "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S3:  "                          XXX X                 X       X XXX X "
+      KS3: "          XXX X                         X               X XXX X "
+      S2:  "                          XXX X                 X       X XXX X "
+      KS2: "          XXX X                         X               X XXX X "
+      S1:  "                          XXX X                 X       X XXX X "
+      KS1: "          XXX X                         X               X XXX X "
+
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    tracks:
+      #    "1---2---3---4---1---2---3---4---"
+      TB:  "X  X  X X  X  X X  X  X X       "
+      RP:  "X  X  X X  X  X X  X  X X       "
+      CX:  "X--X--X-X--X--X-X--X--X-X       "
+      S3:  "X       X       X       X       "
+      KS3: "X  X  X X  X  X X  X  X X       "
+      S2:  "X       X       X       X       "
+      KS2: "X  X  X X  X  X X  X  X X       "
+      S1:  "X       X       X       X       "
+      KS1: "X  X  X X  X  X X  X  X X       "
