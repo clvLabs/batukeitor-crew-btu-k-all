@@ -6,9 +6,8 @@ score:
   intro
   intro
   ---
-  base
-  corte
-  base
+  base base base corte
+  base base base corte
   ---
   intro
   intro
@@ -25,9 +24,9 @@ sections:
     color: "#c3a012"
     tracks:
       #    "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      TB:  "          XXX X           XXX X X       X       X         XXX X "
+      TB:  "          XXX X           XXX X X       X       X       X XXX X "
       RP:  "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
-      CX:  "X  X  X X XXX X X  X  X X XXX X X       X       X         XXX X "
+      CX:  "X  X  X X XXX X X  X  X X XXX X X       X       X       X XXX X "
       S3:  "                                X       X       X       X       "
       KS3: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
       S2:  "                                X       X       X       X       "
